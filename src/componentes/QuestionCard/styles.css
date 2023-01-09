@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+.cardContainer {
+  display: flex;
+  margin: 2% 5%;
+}
+
+.iconout {
+  display: flex;
+  flex-direction: column;
+  width: 7%;
+  align-items: center;
+}
+
+.num {
+  background-color: darkorange;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.numtxt{
+    margin-top:12% !important;
+}
+.QuestionContainer {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 80%;
+}
+.QuestionIcon {
+  font-size: 60px;
+  margin: 3%;
+}
+.QuestionTxt1 {
+  width: 100%;
+}
+.QuestionTxt p {
+  width: 80%;
+  margin-right: 3%;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Amiri", serif;
+  margin-bottom: 0% !important;
+  text-overflow: ellipsis;
+}
+.Questiondesc p{
+  width: 80%;
+  color: rgb(133, 133, 133);
+}
+
+.btn {
+  width: 80%;
+  margin:   3% !important;
+}
+
+@media only screen and (max-width: 760px) {
+  .iconout {
+    /* display: none; */
+    width: 10%;
+    height: 30% !important;
+  }
+  .QuestionIcon {
+    font-size: 30px;
+  }
+  .QuestionTxt p{
+    font-size: 17px;
+    margin-top: 0% !important;
+  }
+  .Questiondesc p{
+    font-size: 13px;
+    margin: 0% !important;
+  }
+  .num{
+    width: 25px;
+    height: 25px;
+  }
+  .QuestionContainer{
+    width: 100%;
+  }
+}

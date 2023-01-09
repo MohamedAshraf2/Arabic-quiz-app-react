@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+.body{
+    direction: rtl;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+.headertxt{
+    font-family: 'Amiri', serif;
+}
+.headersearch{
+    margin-top: 1%;
+}
+.claenderIcon{
+ margin-top: 70%;
+    font-size: 40px;
+}
+.searchIcon{
+ margin-top: 70%;
+    font-size: 40px;
+    display: none;
+}
+
+
+@media only screen and (max-width: 760px) {
+  
+    .headersearch{
+        display: none;
+    }
+    .searchIcon{
+        display: block;
+        margin-top: 30%;
+    font-size: 30px;
+
+    }
+    .claenderIcon{
+        margin-top: 30%;
+    font-size: 30px;
+
+       }
+    .headerIcons{
+        width: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+  }
